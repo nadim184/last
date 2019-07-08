@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Nadim_Chihaoui</title>
+</head>
+<body >
+        <nav>					
+						   
+				<ul>
+                        <li style="padding: 10px 10px 10px 10px;">  <a href="index.html" style="padding: 0px;"> <img src="ress/nadi21.png"  style="transform: translate(-20%, 20%);width:80px; height:60px; position: left; "></a></li>
+				<li><a href="index.html" class="cool-link">Home</a></li>
+				<li><a href="courses.html" class="cool-link">Courses </a></li>
+				<li><a href="contact.html" class="cool-link">Contact</a></li>
+				</ul>
+			
+        </nav>
+       
+            <div class="signup-form">
+                <form id="contactForm">
+                    <h1>CONTACT US</h1>
+            <label></label><input type="text" required placeholder="Full Name" id="name" name="name" class="txtb">
+        
+            <label class="na"></label>
+            <select style="font-family: center;" id="select"   class="box">
+                <option class="na1" disabled required selected value>Track</option>
+                <option class="na">Web</option> 
+                <option  class="na">Ai</option>
+                <option  class="na">Game</option>
+            </select>
+        
+            
+            <label></label><input type="email" placeholder="E-mail" required id="email" name="email" class="txtb">
+
+            <label></label><input type="tel" pattern="[2-9]{2}[0-9]{3}[0-9]{3}" required placeholder="Phone Number" id="message" class="txtb" >
+            
+            <input type="submit" value="submit"  id="submitButton" class="signup-btn">
+
+
+        </form>
+    </div>
+        
+        
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+    <script src="base.js"></script>
+
+</body>
+</html>
